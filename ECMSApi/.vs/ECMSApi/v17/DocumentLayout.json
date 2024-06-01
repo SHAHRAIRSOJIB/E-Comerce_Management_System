@@ -1,0 +1,582 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Munem PC\\Desktop\\Projects\\ECMSApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1AA02868-94D6-4588-ACF1-86767352E306}|ECMSApi\\ECMSApi.csproj|c:\\users\\munem pc\\desktop\\projects\\ecmsapi\\ecmsapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AA02868-94D6-4588-ACF1-86767352E306}|ECMSApi\\ECMSApi.csproj|solutionrelative:ecmsapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3225AB3E-C046-4FCE-875C-6D20D264DD10}|ECMSApi.Service\\ECMSApi.Service.csproj|c:\\users\\munem pc\\desktop\\projects\\ecmsapi\\ecmsapi.service\\model\\products.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3225AB3E-C046-4FCE-875C-6D20D264DD10}|ECMSApi.Service\\ECMSApi.Service.csproj|solutionrelative:ecmsapi.service\\model\\products.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3225AB3E-C046-4FCE-875C-6D20D264DD10}|ECMSApi.Service\\ECMSApi.Service.csproj|c:\\users\\munem pc\\desktop\\projects\\ecmsapi\\ecmsapi.service\\bussinesslayer\\repository\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3225AB3E-C046-4FCE-875C-6D20D264DD10}|ECMSApi.Service\\ECMSApi.Service.csproj|solutionrelative:ecmsapi.service\\bussinesslayer\\repository\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AA02868-94D6-4588-ACF1-86767352E306}|ECMSApi\\ECMSApi.csproj|c:\\users\\munem pc\\desktop\\projects\\ecmsapi\\ecmsapi\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AA02868-94D6-4588-ACF1-86767352E306}|ECMSApi\\ECMSApi.csproj|solutionrelative:ecmsapi\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3225AB3E-C046-4FCE-875C-6D20D264DD10}|ECMSApi.Service\\ECMSApi.Service.csproj|c:\\users\\munem pc\\desktop\\projects\\ecmsapi\\ecmsapi.service\\bussinesslayer\\interface\\iorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3225AB3E-C046-4FCE-875C-6D20D264DD10}|ECMSApi.Service\\ECMSApi.Service.csproj|solutionrelative:ecmsapi.service\\bussinesslayer\\interface\\iorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3225AB3E-C046-4FCE-875C-6D20D264DD10}|ECMSApi.Service\\ECMSApi.Service.csproj|c:\\users\\munem pc\\desktop\\projects\\ecmsapi\\ecmsapi.service\\bussinesslayer\\repository\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3225AB3E-C046-4FCE-875C-6D20D264DD10}|ECMSApi.Service\\ECMSApi.Service.csproj|solutionrelative:ecmsapi.service\\bussinesslayer\\repository\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3225AB3E-C046-4FCE-875C-6D20D264DD10}|ECMSApi.Service\\ECMSApi.Service.csproj|c:\\users\\munem pc\\desktop\\projects\\ecmsapi\\ecmsapi.service\\model\\orderdetailsview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3225AB3E-C046-4FCE-875C-6D20D264DD10}|ECMSApi.Service\\ECMSApi.Service.csproj|solutionrelative:ecmsapi.service\\model\\orderdetailsview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3225AB3E-C046-4FCE-875C-6D20D264DD10}|ECMSApi.Service\\ECMSApi.Service.csproj|c:\\users\\munem pc\\desktop\\projects\\ecmsapi\\ecmsapi.service\\bussinesslayer\\service\\dapperservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3225AB3E-C046-4FCE-875C-6D20D264DD10}|ECMSApi.Service\\ECMSApi.Service.csproj|solutionrelative:ecmsapi.service\\bussinesslayer\\service\\dapperservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AA02868-94D6-4588-ACF1-86767352E306}|ECMSApi\\ECMSApi.csproj|c:\\users\\munem pc\\desktop\\projects\\ecmsapi\\ecmsapi\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AA02868-94D6-4588-ACF1-86767352E306}|ECMSApi\\ECMSApi.csproj|solutionrelative:ecmsapi\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3225AB3E-C046-4FCE-875C-6D20D264DD10}|ECMSApi.Service\\ECMSApi.Service.csproj|c:\\users\\munem pc\\desktop\\projects\\ecmsapi\\ecmsapi.service\\model\\ecmscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3225AB3E-C046-4FCE-875C-6D20D264DD10}|ECMSApi.Service\\ECMSApi.Service.csproj|solutionrelative:ecmsapi.service\\model\\ecmscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3225AB3E-C046-4FCE-875C-6D20D264DD10}|ECMSApi.Service\\ECMSApi.Service.csproj|c:\\users\\munem pc\\desktop\\projects\\ecmsapi\\ecmsapi.service\\model\\productdetailsview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3225AB3E-C046-4FCE-875C-6D20D264DD10}|ECMSApi.Service\\ECMSApi.Service.csproj|solutionrelative:ecmsapi.service\\model\\productdetailsview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3225AB3E-C046-4FCE-875C-6D20D264DD10}|ECMSApi.Service\\ECMSApi.Service.csproj|c:\\users\\munem pc\\desktop\\projects\\ecmsapi\\ecmsapi.service\\bussinesslayer\\repository\\userloginrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3225AB3E-C046-4FCE-875C-6D20D264DD10}|ECMSApi.Service\\ECMSApi.Service.csproj|solutionrelative:ecmsapi.service\\bussinesslayer\\repository\\userloginrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3225AB3E-C046-4FCE-875C-6D20D264DD10}|ECMSApi.Service\\ECMSApi.Service.csproj|c:\\users\\munem pc\\desktop\\projects\\ecmsapi\\ecmsapi.service\\bussinesslayer\\interface\\iproducts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3225AB3E-C046-4FCE-875C-6D20D264DD10}|ECMSApi.Service\\ECMSApi.Service.csproj|solutionrelative:ecmsapi.service\\bussinesslayer\\interface\\iproducts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AA02868-94D6-4588-ACF1-86767352E306}|ECMSApi\\ECMSApi.csproj|c:\\users\\munem pc\\desktop\\projects\\ecmsapi\\ecmsapi\\controllers\\userlogincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AA02868-94D6-4588-ACF1-86767352E306}|ECMSApi\\ECMSApi.csproj|solutionrelative:ecmsapi\\controllers\\userlogincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AA02868-94D6-4588-ACF1-86767352E306}|ECMSApi\\ECMSApi.csproj|c:\\users\\munem pc\\desktop\\projects\\ecmsapi\\ecmsapi\\controllers\\testcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AA02868-94D6-4588-ACF1-86767352E306}|ECMSApi\\ECMSApi.csproj|solutionrelative:ecmsapi\\controllers\\testcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AA02868-94D6-4588-ACF1-86767352E306}|ECMSApi\\ECMSApi.csproj|c:\\users\\munem pc\\desktop\\projects\\ecmsapi\\ecmsapi\\controllers\\dropdowncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AA02868-94D6-4588-ACF1-86767352E306}|ECMSApi\\ECMSApi.csproj|solutionrelative:ecmsapi\\controllers\\dropdowncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AA02868-94D6-4588-ACF1-86767352E306}|ECMSApi\\ECMSApi.csproj|c:\\users\\munem pc\\desktop\\projects\\ecmsapi\\ecmsapi\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AA02868-94D6-4588-ACF1-86767352E306}|ECMSApi\\ECMSApi.csproj|solutionrelative:ecmsapi\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3225AB3E-C046-4FCE-875C-6D20D264DD10}|ECMSApi.Service\\ECMSApi.Service.csproj|c:\\users\\munem pc\\desktop\\projects\\ecmsapi\\ecmsapi.service\\bussinesslayer\\interface\\iuserlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3225AB3E-C046-4FCE-875C-6D20D264DD10}|ECMSApi.Service\\ECMSApi.Service.csproj|solutionrelative:ecmsapi.service\\bussinesslayer\\interface\\iuserlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3225AB3E-C046-4FCE-875C-6D20D264DD10}|ECMSApi.Service\\ECMSApi.Service.csproj|c:\\users\\munem pc\\desktop\\projects\\ecmsapi\\ecmsapi.service\\bussinesslayer\\repository\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3225AB3E-C046-4FCE-875C-6D20D264DD10}|ECMSApi.Service\\ECMSApi.Service.csproj|solutionrelative:ecmsapi.service\\bussinesslayer\\repository\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3225AB3E-C046-4FCE-875C-6D20D264DD10}|ECMSApi.Service\\ECMSApi.Service.csproj|c:\\users\\munem pc\\desktop\\projects\\ecmsapi\\ecmsapi.service\\model\\userlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3225AB3E-C046-4FCE-875C-6D20D264DD10}|ECMSApi.Service\\ECMSApi.Service.csproj|solutionrelative:ecmsapi.service\\model\\userlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3225AB3E-C046-4FCE-875C-6D20D264DD10}|ECMSApi.Service\\ECMSApi.Service.csproj|c:\\users\\munem pc\\desktop\\projects\\ecmsapi\\ecmsapi.service\\model\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3225AB3E-C046-4FCE-875C-6D20D264DD10}|ECMSApi.Service\\ECMSApi.Service.csproj|solutionrelative:ecmsapi.service\\model\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3225AB3E-C046-4FCE-875C-6D20D264DD10}|ECMSApi.Service\\ECMSApi.Service.csproj|c:\\users\\munem pc\\desktop\\projects\\ecmsapi\\ecmsapi.service\\bussinesslayer\\interface\\icustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3225AB3E-C046-4FCE-875C-6D20D264DD10}|ECMSApi.Service\\ECMSApi.Service.csproj|solutionrelative:ecmsapi.service\\bussinesslayer\\interface\\icustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3225AB3E-C046-4FCE-875C-6D20D264DD10}|ECMSApi.Service\\ECMSApi.Service.csproj|c:\\users\\munem pc\\desktop\\projects\\ecmsapi\\ecmsapi.service\\model\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3225AB3E-C046-4FCE-875C-6D20D264DD10}|ECMSApi.Service\\ECMSApi.Service.csproj|solutionrelative:ecmsapi.service\\model\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3225AB3E-C046-4FCE-875C-6D20D264DD10}|ECMSApi.Service\\ECMSApi.Service.csproj|c:\\users\\munem pc\\desktop\\projects\\ecmsapi\\ecmsapi.service\\model\\orderdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3225AB3E-C046-4FCE-875C-6D20D264DD10}|ECMSApi.Service\\ECMSApi.Service.csproj|solutionrelative:ecmsapi.service\\model\\orderdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3225AB3E-C046-4FCE-875C-6D20D264DD10}|ECMSApi.Service\\ECMSApi.Service.csproj|c:\\users\\munem pc\\desktop\\projects\\ecmsapi\\ecmsapi.service\\bussinesslayer\\interface\\isizes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3225AB3E-C046-4FCE-875C-6D20D264DD10}|ECMSApi.Service\\ECMSApi.Service.csproj|solutionrelative:ecmsapi.service\\bussinesslayer\\interface\\isizes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3225AB3E-C046-4FCE-875C-6D20D264DD10}|ECMSApi.Service\\ECMSApi.Service.csproj|c:\\users\\munem pc\\desktop\\projects\\ecmsapi\\ecmsapi.service\\bussinesslayer\\repository\\sizerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3225AB3E-C046-4FCE-875C-6D20D264DD10}|ECMSApi.Service\\ECMSApi.Service.csproj|solutionrelative:ecmsapi.service\\bussinesslayer\\repository\\sizerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3225AB3E-C046-4FCE-875C-6D20D264DD10}|ECMSApi.Service\\ECMSApi.Service.csproj|c:\\users\\munem pc\\desktop\\projects\\ecmsapi\\ecmsapi.service\\bussinesslayer\\interface\\icolor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3225AB3E-C046-4FCE-875C-6D20D264DD10}|ECMSApi.Service\\ECMSApi.Service.csproj|solutionrelative:ecmsapi.service\\bussinesslayer\\interface\\icolor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3225AB3E-C046-4FCE-875C-6D20D264DD10}|ECMSApi.Service\\ECMSApi.Service.csproj|c:\\users\\munem pc\\desktop\\projects\\ecmsapi\\ecmsapi.service\\bussinesslayer\\repository\\colorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3225AB3E-C046-4FCE-875C-6D20D264DD10}|ECMSApi.Service\\ECMSApi.Service.csproj|solutionrelative:ecmsapi.service\\bussinesslayer\\repository\\colorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3225AB3E-C046-4FCE-875C-6D20D264DD10}|ECMSApi.Service\\ECMSApi.Service.csproj|c:\\users\\munem pc\\desktop\\projects\\ecmsapi\\ecmsapi.service\\model\\color.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3225AB3E-C046-4FCE-875C-6D20D264DD10}|ECMSApi.Service\\ECMSApi.Service.csproj|solutionrelative:ecmsapi.service\\model\\color.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3225AB3E-C046-4FCE-875C-6D20D264DD10}|ECMSApi.Service\\ECMSApi.Service.csproj|c:\\users\\munem pc\\desktop\\projects\\ecmsapi\\ecmsapi.service\\bussinesslayer\\repository\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3225AB3E-C046-4FCE-875C-6D20D264DD10}|ECMSApi.Service\\ECMSApi.Service.csproj|solutionrelative:ecmsapi.service\\bussinesslayer\\repository\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3225AB3E-C046-4FCE-875C-6D20D264DD10}|ECMSApi.Service\\ECMSApi.Service.csproj|c:\\users\\munem pc\\desktop\\projects\\ecmsapi\\ecmsapi.service\\model\\categories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3225AB3E-C046-4FCE-875C-6D20D264DD10}|ECMSApi.Service\\ECMSApi.Service.csproj|solutionrelative:ecmsapi.service\\model\\categories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3225AB3E-C046-4FCE-875C-6D20D264DD10}|ECMSApi.Service\\ECMSApi.Service.csproj|c:\\users\\munem pc\\desktop\\projects\\ecmsapi\\ecmsapi.service\\bussinesslayer\\repository\\inventorylevelrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3225AB3E-C046-4FCE-875C-6D20D264DD10}|ECMSApi.Service\\ECMSApi.Service.csproj|solutionrelative:ecmsapi.service\\bussinesslayer\\repository\\inventorylevelrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3225AB3E-C046-4FCE-875C-6D20D264DD10}|ECMSApi.Service\\ECMSApi.Service.csproj|c:\\users\\munem pc\\desktop\\projects\\ecmsapi\\ecmsapi.service\\model\\inventorylevels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3225AB3E-C046-4FCE-875C-6D20D264DD10}|ECMSApi.Service\\ECMSApi.Service.csproj|solutionrelative:ecmsapi.service\\model\\inventorylevels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3225AB3E-C046-4FCE-875C-6D20D264DD10}|ECMSApi.Service\\ECMSApi.Service.csproj|c:\\users\\munem pc\\desktop\\projects\\ecmsapi\\ecmsapi.service\\bussinesslayer\\interface\\iinventorylevels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3225AB3E-C046-4FCE-875C-6D20D264DD10}|ECMSApi.Service\\ECMSApi.Service.csproj|solutionrelative:ecmsapi.service\\bussinesslayer\\interface\\iinventorylevels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3225AB3E-C046-4FCE-875C-6D20D264DD10}|ECMSApi.Service\\ECMSApi.Service.csproj|c:\\users\\munem pc\\desktop\\projects\\ecmsapi\\ecmsapi.service\\bussinesslayer\\interface\\icategories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3225AB3E-C046-4FCE-875C-6D20D264DD10}|ECMSApi.Service\\ECMSApi.Service.csproj|solutionrelative:ecmsapi.service\\bussinesslayer\\interface\\icategories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Munem PC\\Desktop\\Projects\\ECMSApi\\ECMSApi\\Program.cs",
+              "RelativeDocumentMoniker": "ECMSApi\\Program.cs",
+              "ToolTip": "C:\\Users\\Munem PC\\Desktop\\Projects\\ECMSApi\\ECMSApi\\Program.cs",
+              "RelativeToolTip": "ECMSApi\\Program.cs",
+              "ViewState": "AQIAACcAAAAAAAAAAAAAABkAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T12:04:11.952Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "CustomerController.cs",
+              "DocumentMoniker": "C:\\Users\\Munem PC\\Desktop\\Projects\\ECMSApi\\ECMSApi\\Controllers\\CustomerController.cs",
+              "RelativeDocumentMoniker": "ECMSApi\\Controllers\\CustomerController.cs",
+              "ToolTip": "C:\\Users\\Munem PC\\Desktop\\Projects\\ECMSApi\\ECMSApi\\Controllers\\CustomerController.cs",
+              "RelativeToolTip": "ECMSApi\\Controllers\\CustomerController.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABAAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T16:54:06.074Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ProductDetailsView.cs",
+              "DocumentMoniker": "C:\\Users\\Munem PC\\Desktop\\Projects\\ECMSApi\\ECMSApi.Service\\Model\\ProductDetailsView.cs",
+              "RelativeDocumentMoniker": "ECMSApi.Service\\Model\\ProductDetailsView.cs",
+              "ToolTip": "C:\\Users\\Munem PC\\Desktop\\Projects\\ECMSApi\\ECMSApi.Service\\Model\\ProductDetailsView.cs",
+              "RelativeToolTip": "ECMSApi.Service\\Model\\ProductDetailsView.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABQAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T21:33:51.961Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "UserLoginRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Munem PC\\Desktop\\Projects\\ECMSApi\\ECMSApi.Service\\BussinessLayer\\Repository\\UserLoginRepository.cs",
+              "RelativeDocumentMoniker": "ECMSApi.Service\\BussinessLayer\\Repository\\UserLoginRepository.cs",
+              "ToolTip": "C:\\Users\\Munem PC\\Desktop\\Projects\\ECMSApi\\ECMSApi.Service\\BussinessLayer\\Repository\\UserLoginRepository.cs",
+              "RelativeToolTip": "ECMSApi.Service\\BussinessLayer\\Repository\\UserLoginRepository.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAowBYAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T18:13:04.365Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DapperService.cs",
+              "DocumentMoniker": "C:\\Users\\Munem PC\\Desktop\\Projects\\ECMSApi\\ECMSApi.Service\\BussinessLayer\\Service\\DapperService.cs",
+              "RelativeDocumentMoniker": "ECMSApi.Service\\BussinessLayer\\Service\\DapperService.cs",
+              "ToolTip": "C:\\Users\\Munem PC\\Desktop\\Projects\\ECMSApi\\ECMSApi.Service\\BussinessLayer\\Service\\DapperService.cs",
+              "RelativeToolTip": "ECMSApi.Service\\BussinessLayer\\Service\\DapperService.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAuwBMAAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T04:51:05.219Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "OrderRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Munem PC\\Desktop\\Projects\\ECMSApi\\ECMSApi.Service\\BussinessLayer\\Repository\\OrderRepository.cs",
+              "RelativeDocumentMoniker": "ECMSApi.Service\\BussinessLayer\\Repository\\OrderRepository.cs",
+              "ToolTip": "C:\\Users\\Munem PC\\Desktop\\Projects\\ECMSApi\\ECMSApi.Service\\BussinessLayer\\Repository\\OrderRepository.cs",
+              "RelativeToolTip": "ECMSApi.Service\\BussinessLayer\\Repository\\OrderRepository.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAYwAwAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T05:56:11.882Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Munem PC\\Desktop\\Projects\\ECMSApi\\ECMSApi.Service\\BussinessLayer\\Repository\\ProductRepository.cs",
+              "RelativeDocumentMoniker": "ECMSApi.Service\\BussinessLayer\\Repository\\ProductRepository.cs",
+              "ToolTip": "C:\\Users\\Munem PC\\Desktop\\Projects\\ECMSApi\\ECMSApi.Service\\BussinessLayer\\Repository\\ProductRepository.cs",
+              "RelativeToolTip": "ECMSApi.Service\\BussinessLayer\\Repository\\ProductRepository.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAgwDcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T12:03:53.104Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IOrder.cs",
+              "DocumentMoniker": "C:\\Users\\Munem PC\\Desktop\\Projects\\ECMSApi\\ECMSApi.Service\\BussinessLayer\\Interface\\IOrder.cs",
+              "RelativeDocumentMoniker": "ECMSApi.Service\\BussinessLayer\\Interface\\IOrder.cs",
+              "ToolTip": "C:\\Users\\Munem PC\\Desktop\\Projects\\ECMSApi\\ECMSApi.Service\\BussinessLayer\\Interface\\IOrder.cs",
+              "RelativeToolTip": "ECMSApi.Service\\BussinessLayer\\Interface\\IOrder.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T05:59:32.084Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "C:\\Users\\Munem PC\\Desktop\\Projects\\ECMSApi\\ECMSApi\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "ECMSApi\\Controllers\\OrderController.cs",
+              "ToolTip": "C:\\Users\\Munem PC\\Desktop\\Projects\\ECMSApi\\ECMSApi\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "ECMSApi\\Controllers\\OrderController.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAAAB8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T06:01:25.484Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Products.cs",
+              "DocumentMoniker": "C:\\Users\\Munem PC\\Desktop\\Projects\\ECMSApi\\ECMSApi.Service\\Model\\Products.cs",
+              "RelativeDocumentMoniker": "ECMSApi.Service\\Model\\Products.cs",
+              "ToolTip": "C:\\Users\\Munem PC\\Desktop\\Projects\\ECMSApi\\ECMSApi.Service\\Model\\Products.cs",
+              "RelativeToolTip": "ECMSApi.Service\\Model\\Products.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABQAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T11:10:41.29Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\Munem PC\\Desktop\\Projects\\ECMSApi\\ECMSApi\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "ECMSApi\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\Munem PC\\Desktop\\Projects\\ECMSApi\\ECMSApi\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "ECMSApi\\Controllers\\ProductController.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAcwCUAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T12:12:31.242Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "OrderDetailsView.cs",
+              "DocumentMoniker": "C:\\Users\\Munem PC\\Desktop\\Projects\\ECMSApi\\ECMSApi.Service\\Model\\OrderDetailsView.cs",
+              "RelativeDocumentMoniker": "ECMSApi.Service\\Model\\OrderDetailsView.cs",
+              "ToolTip": "C:\\Users\\Munem PC\\Desktop\\Projects\\ECMSApi\\ECMSApi.Service\\Model\\OrderDetailsView.cs",
+              "RelativeToolTip": "ECMSApi.Service\\Model\\OrderDetailsView.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAA8wBgAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T10:20:58.184Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "TestController.cs",
+              "DocumentMoniker": "C:\\Users\\Munem PC\\Desktop\\Projects\\ECMSApi\\ECMSApi\\Controllers\\TestController.cs",
+              "RelativeDocumentMoniker": "ECMSApi\\Controllers\\TestController.cs",
+              "ToolTip": "C:\\Users\\Munem PC\\Desktop\\Projects\\ECMSApi\\ECMSApi\\Controllers\\TestController.cs",
+              "RelativeToolTip": "ECMSApi\\Controllers\\TestController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T12:12:48.211Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "DropDownController.cs",
+              "DocumentMoniker": "C:\\Users\\Munem PC\\Desktop\\Projects\\ECMSApi\\ECMSApi\\Controllers\\DropDownController.cs",
+              "RelativeDocumentMoniker": "ECMSApi\\Controllers\\DropDownController.cs",
+              "ToolTip": "C:\\Users\\Munem PC\\Desktop\\Projects\\ECMSApi\\ECMSApi\\Controllers\\DropDownController.cs",
+              "RelativeToolTip": "ECMSApi\\Controllers\\DropDownController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T05:44:43.629Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IProducts.cs",
+              "DocumentMoniker": "C:\\Users\\Munem PC\\Desktop\\Projects\\ECMSApi\\ECMSApi.Service\\BussinessLayer\\Interface\\IProducts.cs",
+              "RelativeDocumentMoniker": "ECMSApi.Service\\BussinessLayer\\Interface\\IProducts.cs",
+              "ToolTip": "C:\\Users\\Munem PC\\Desktop\\Projects\\ECMSApi\\ECMSApi.Service\\BussinessLayer\\Interface\\IProducts.cs",
+              "RelativeToolTip": "ECMSApi.Service\\BussinessLayer\\Interface\\IProducts.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAuwBAAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T05:53:43.441Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ECMSContext.cs",
+              "DocumentMoniker": "C:\\Users\\Munem PC\\Desktop\\Projects\\ECMSApi\\ECMSApi.Service\\Model\\ECMSContext.cs",
+              "RelativeDocumentMoniker": "ECMSApi.Service\\Model\\ECMSContext.cs",
+              "ToolTip": "C:\\Users\\Munem PC\\Desktop\\Projects\\ECMSApi\\ECMSApi.Service\\Model\\ECMSContext.cs",
+              "RelativeToolTip": "ECMSApi.Service\\Model\\ECMSContext.cs",
+              "ViewState": "AQIAACwAAAAAAAAAAAAmwDYAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T06:08:44.266Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "UserLoginController.cs",
+              "DocumentMoniker": "C:\\Users\\Munem PC\\Desktop\\Projects\\ECMSApi\\ECMSApi\\Controllers\\UserLoginController.cs",
+              "RelativeDocumentMoniker": "ECMSApi\\Controllers\\UserLoginController.cs",
+              "ToolTip": "C:\\Users\\Munem PC\\Desktop\\Projects\\ECMSApi\\ECMSApi\\Controllers\\UserLoginController.cs",
+              "RelativeToolTip": "ECMSApi\\Controllers\\UserLoginController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAADwvw0AAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T18:29:52.555Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Categories.cs",
+              "DocumentMoniker": "C:\\Users\\Munem PC\\Desktop\\Projects\\ECMSApi\\ECMSApi.Service\\Model\\Categories.cs",
+              "RelativeDocumentMoniker": "ECMSApi.Service\\Model\\Categories.cs",
+              "ToolTip": "C:\\Users\\Munem PC\\Desktop\\Projects\\ECMSApi\\ECMSApi.Service\\Model\\Categories.cs",
+              "RelativeToolTip": "ECMSApi.Service\\Model\\Categories.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T06:43:55.329Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "C:\\Users\\Munem PC\\Desktop\\Projects\\ECMSApi\\ECMSApi.Service\\Model\\Customer.cs",
+              "RelativeDocumentMoniker": "ECMSApi.Service\\Model\\Customer.cs",
+              "ToolTip": "C:\\Users\\Munem PC\\Desktop\\Projects\\ECMSApi\\ECMSApi.Service\\Model\\Customer.cs",
+              "RelativeToolTip": "ECMSApi.Service\\Model\\Customer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T16:47:58.646Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "CustomerRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Munem PC\\Desktop\\Projects\\ECMSApi\\ECMSApi.Service\\BussinessLayer\\Repository\\CustomerRepository.cs",
+              "RelativeDocumentMoniker": "ECMSApi.Service\\BussinessLayer\\Repository\\CustomerRepository.cs",
+              "ToolTip": "C:\\Users\\Munem PC\\Desktop\\Projects\\ECMSApi\\ECMSApi.Service\\BussinessLayer\\Repository\\CustomerRepository.cs",
+              "RelativeToolTip": "ECMSApi.Service\\BussinessLayer\\Repository\\CustomerRepository.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABYAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T16:49:02.23Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "UserLogin.cs",
+              "DocumentMoniker": "C:\\Users\\Munem PC\\Desktop\\Projects\\ECMSApi\\ECMSApi.Service\\Model\\UserLogin.cs",
+              "RelativeDocumentMoniker": "ECMSApi.Service\\Model\\UserLogin.cs",
+              "ToolTip": "C:\\Users\\Munem PC\\Desktop\\Projects\\ECMSApi\\ECMSApi.Service\\Model\\UserLogin.cs",
+              "RelativeToolTip": "ECMSApi.Service\\Model\\UserLogin.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAoAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T18:09:24.911Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IUserLogin.cs",
+              "DocumentMoniker": "C:\\Users\\Munem PC\\Desktop\\Projects\\ECMSApi\\ECMSApi.Service\\BussinessLayer\\Interface\\IUserLogin.cs",
+              "RelativeDocumentMoniker": "ECMSApi.Service\\BussinessLayer\\Interface\\IUserLogin.cs",
+              "ToolTip": "C:\\Users\\Munem PC\\Desktop\\Projects\\ECMSApi\\ECMSApi.Service\\BussinessLayer\\Interface\\IUserLogin.cs",
+              "RelativeToolTip": "ECMSApi.Service\\BussinessLayer\\Interface\\IUserLogin.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAgwAsAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T18:27:25.931Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ICustomer.cs",
+              "DocumentMoniker": "C:\\Users\\Munem PC\\Desktop\\Projects\\ECMSApi\\ECMSApi.Service\\BussinessLayer\\Interface\\ICustomer.cs",
+              "RelativeDocumentMoniker": "ECMSApi.Service\\BussinessLayer\\Interface\\ICustomer.cs",
+              "ToolTip": "C:\\Users\\Munem PC\\Desktop\\Projects\\ECMSApi\\ECMSApi.Service\\BussinessLayer\\Interface\\ICustomer.cs",
+              "RelativeToolTip": "ECMSApi.Service\\BussinessLayer\\Interface\\ICustomer.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAsAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T16:51:49.975Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "InventoryLevels.cs",
+              "DocumentMoniker": "C:\\Users\\Munem PC\\Desktop\\Projects\\ECMSApi\\ECMSApi.Service\\Model\\InventoryLevels.cs",
+              "RelativeDocumentMoniker": "ECMSApi.Service\\Model\\InventoryLevels.cs",
+              "ToolTip": "C:\\Users\\Munem PC\\Desktop\\Projects\\ECMSApi\\ECMSApi.Service\\Model\\InventoryLevels.cs",
+              "RelativeToolTip": "ECMSApi.Service\\Model\\InventoryLevels.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAoAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T06:05:26.331Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\Munem PC\\Desktop\\Projects\\ECMSApi\\ECMSApi.Service\\Model\\Order.cs",
+              "RelativeDocumentMoniker": "ECMSApi.Service\\Model\\Order.cs",
+              "ToolTip": "C:\\Users\\Munem PC\\Desktop\\Projects\\ECMSApi\\ECMSApi.Service\\Model\\Order.cs",
+              "RelativeToolTip": "ECMSApi.Service\\Model\\Order.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAuwA0AAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T05:50:27.136Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "OrderDetails.cs",
+              "DocumentMoniker": "C:\\Users\\Munem PC\\Desktop\\Projects\\ECMSApi\\ECMSApi.Service\\Model\\OrderDetails.cs",
+              "RelativeDocumentMoniker": "ECMSApi.Service\\Model\\OrderDetails.cs",
+              "ToolTip": "C:\\Users\\Munem PC\\Desktop\\Projects\\ECMSApi\\ECMSApi.Service\\Model\\OrderDetails.cs",
+              "RelativeToolTip": "ECMSApi.Service\\Model\\OrderDetails.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwA0AAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T05:52:30.745Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Color.cs",
+              "DocumentMoniker": "C:\\Users\\Munem PC\\Desktop\\Projects\\ECMSApi\\ECMSApi.Service\\Model\\Color.cs",
+              "RelativeDocumentMoniker": "ECMSApi.Service\\Model\\Color.cs",
+              "ToolTip": "C:\\Users\\Munem PC\\Desktop\\Projects\\ECMSApi\\ECMSApi.Service\\Model\\Color.cs",
+              "RelativeToolTip": "ECMSApi.Service\\Model\\Color.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAoAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T06:21:39.869Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "ColorRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Munem PC\\Desktop\\Projects\\ECMSApi\\ECMSApi.Service\\BussinessLayer\\Repository\\ColorRepository.cs",
+              "RelativeDocumentMoniker": "ECMSApi.Service\\BussinessLayer\\Repository\\ColorRepository.cs",
+              "ToolTip": "C:\\Users\\Munem PC\\Desktop\\Projects\\ECMSApi\\ECMSApi.Service\\BussinessLayer\\Repository\\ColorRepository.cs",
+              "RelativeToolTip": "ECMSApi.Service\\BussinessLayer\\Repository\\ColorRepository.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAxwBoAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T06:23:51.533Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "IColor.cs",
+              "DocumentMoniker": "C:\\Users\\Munem PC\\Desktop\\Projects\\ECMSApi\\ECMSApi.Service\\BussinessLayer\\Interface\\IColor.cs",
+              "RelativeDocumentMoniker": "ECMSApi.Service\\BussinessLayer\\Interface\\IColor.cs",
+              "ToolTip": "C:\\Users\\Munem PC\\Desktop\\Projects\\ECMSApi\\ECMSApi.Service\\BussinessLayer\\Interface\\IColor.cs",
+              "RelativeToolTip": "ECMSApi.Service\\BussinessLayer\\Interface\\IColor.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAwAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T06:27:23.767Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "ICategories.cs",
+              "DocumentMoniker": "C:\\Users\\Munem PC\\Desktop\\Projects\\ECMSApi\\ECMSApi.Service\\BussinessLayer\\Interface\\ICategories.cs",
+              "RelativeDocumentMoniker": "ECMSApi.Service\\BussinessLayer\\Interface\\ICategories.cs",
+              "ToolTip": "C:\\Users\\Munem PC\\Desktop\\Projects\\ECMSApi\\ECMSApi.Service\\BussinessLayer\\Interface\\ICategories.cs",
+              "RelativeToolTip": "ECMSApi.Service\\BussinessLayer\\Interface\\ICategories.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAIBJwBAAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T05:43:41.928Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "CategoryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Munem PC\\Desktop\\Projects\\ECMSApi\\ECMSApi.Service\\BussinessLayer\\Repository\\CategoryRepository.cs",
+              "RelativeDocumentMoniker": "ECMSApi.Service\\BussinessLayer\\Repository\\CategoryRepository.cs",
+              "ToolTip": "C:\\Users\\Munem PC\\Desktop\\Projects\\ECMSApi\\ECMSApi.Service\\BussinessLayer\\Repository\\CategoryRepository.cs",
+              "RelativeToolTip": "ECMSApi.Service\\BussinessLayer\\Repository\\CategoryRepository.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAmwBkAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T12:03:29.865Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "IInventoryLevels.cs",
+              "DocumentMoniker": "C:\\Users\\Munem PC\\Desktop\\Projects\\ECMSApi\\ECMSApi.Service\\BussinessLayer\\Interface\\IInventoryLevels.cs",
+              "RelativeDocumentMoniker": "ECMSApi.Service\\BussinessLayer\\Interface\\IInventoryLevels.cs",
+              "ToolTip": "C:\\Users\\Munem PC\\Desktop\\Projects\\ECMSApi\\ECMSApi.Service\\BussinessLayer\\Interface\\IInventoryLevels.cs",
+              "RelativeToolTip": "ECMSApi.Service\\BussinessLayer\\Interface\\IInventoryLevels.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAxwBAAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T12:00:26.671Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "InventoryLevelRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Munem PC\\Desktop\\Projects\\ECMSApi\\ECMSApi.Service\\BussinessLayer\\Repository\\InventoryLevelRepository.cs",
+              "RelativeDocumentMoniker": "ECMSApi.Service\\BussinessLayer\\Repository\\InventoryLevelRepository.cs",
+              "ToolTip": "C:\\Users\\Munem PC\\Desktop\\Projects\\ECMSApi\\ECMSApi.Service\\BussinessLayer\\Repository\\InventoryLevelRepository.cs",
+              "RelativeToolTip": "ECMSApi.Service\\BussinessLayer\\Repository\\InventoryLevelRepository.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAA4wC4AAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T11:56:28.715Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ISizes.cs",
+              "DocumentMoniker": "C:\\Users\\Munem PC\\Desktop\\Projects\\ECMSApi\\ECMSApi.Service\\BussinessLayer\\Interface\\ISizes.cs",
+              "RelativeDocumentMoniker": "ECMSApi.Service\\BussinessLayer\\Interface\\ISizes.cs",
+              "ToolTip": "C:\\Users\\Munem PC\\Desktop\\Projects\\ECMSApi\\ECMSApi.Service\\BussinessLayer\\Interface\\ISizes.cs",
+              "RelativeToolTip": "ECMSApi.Service\\BussinessLayer\\Interface\\ISizes.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAtwBEAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T11:44:48.077Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "SizeRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Munem PC\\Desktop\\Projects\\ECMSApi\\ECMSApi.Service\\BussinessLayer\\Repository\\SizeRepository.cs",
+              "RelativeDocumentMoniker": "ECMSApi.Service\\BussinessLayer\\Repository\\SizeRepository.cs",
+              "ToolTip": "C:\\Users\\Munem PC\\Desktop\\Projects\\ECMSApi\\ECMSApi.Service\\BussinessLayer\\Repository\\SizeRepository.cs",
+              "RelativeToolTip": "ECMSApi.Service\\BussinessLayer\\Repository\\SizeRepository.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAA1wDYAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T11:40:37.17Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

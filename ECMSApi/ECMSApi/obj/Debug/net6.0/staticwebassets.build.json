@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "ayPqHi77MAhvVKfbzo91HqYj1rrjysxnCyS78ICx2iI=",
+  "Source": "ECMSApi",
+  "BasePath": "_content/ECMSApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

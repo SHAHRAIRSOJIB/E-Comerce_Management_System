@@ -1,0 +1,131 @@
+﻿
+@{
+    ViewData["Title"] = "ProductList";
+    Layout = "~/Views/Shared/_LayoutForECMS.cshtml";
+}
+
+
+    <style >
+    table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+
+    th, td {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+    }
+
+    th {
+        background-color: #f2f2f2;
+    }
+</style
+<br />
+<br />
+<br />
+<br />
+<div class="modal fade" id="editModal" tabindex="-1" aria-labelledby="editModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="editModalLabel">Edit Product</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form id="editForm">
+                    <div class="form-group">
+                        <label for="editProductName">Product Name</label>
+                        <input type="text" class="form-control" id="editProductName" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="editProductDescription">Product Description</label>
+                        <textarea class="form-control" id="editProductDescription" required></textarea>
+                    </div>
+                    <!-- Add other fields as necessary -->
+                    <button type="submit" class="btn btn-primary">Save changes</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<div style="width: 85%; margin: 0 auto;">
+    <h4 style="text-align:center">Product List</h4>
+    <br />
+    <div class="table-responsive">
+        <table id="dataTable" >
+            <thead>
+                <tr style="text-align: center;">
+                    <th>Name</th>
+                    <th>Description</th>
+                    <th>Specification</th>
+                    <th>Price</th>
+                    <th>Category</th>
+                    <th>Size</th>
+                    <th>Inventoryl</th>
+                    <th>Qty</th>
+                    <th>Color</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody style="text-align: center;">
+            </tbody>
+        </table>
+
+    </div>
+
+
+
+</div>
+
+<br />
+<br />
+<br />
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+        $(document).ready(function() {
+            LoadData();
+        });
+    function LoadData() {
+        debugger;
+         $.ajax({
+                url: '/Product/GetAllProductList',
+                method: 'GET',
+                dataType: 'json',
+                success: function(result) {
+                    const tableBody = $('#dataTable tbody');
+            result.forEach(product => {
+                tableBody.append(`
+                    <tr>
+                        <td>${product.productName}</td>
+                        <td>${product.productDescription}</td>
+                        <td>${product.productSpecification}</td>
+                        <td>${product.productPrice}</td>
+                        <td>${product.categoryName}</td>
+                        <td>${product.sizeName}</td>
+                        <td>${product.inventoryLevel}</td>
+                        <td>${product.quantity}</td>
+                        <td>${product.colorName}</td>
+                         <td><button class="btn btn-primary  btn-sm edit-btn" onclick="redirectToEditPage('${product.productId}','${product.productName}', '${product.productDescription}', '${product.productSpecification}', '${product.productPrice}', '${product.categoryName}', '${product.sizeName}', '${product.inventoryLevel}', '${product.quantity}', '${product.colorName}', '${product.productId}')">Edit</button></td>
+
+                    </tr>
+                `);
+
+            });
+                },
+                error: function(error) {
+                    console.error('Error fetching data:', error);
+                }
+            });
+    };
+function redirectToEditPage(id,productName, productDescription, productSpecification, productPrice, categoryName, sizeName, inventoryLevel, quantity, colorName, productId) {
+    console.log(productId);
+    debugger;
+    
+   var url = "/Product/EditProduct?productName=" + encodeURIComponent(productName) + "&productDescription=" + encodeURIComponent(productDescription) + "&productSpecification=" + encodeURIComponent(productSpecification) + "&productPrice=" + encodeURIComponent(productPrice) + "&categoryName=" + encodeURIComponent(categoryName) + "&sizeName=" + encodeURIComponent(sizeName) + "&inventoryLevel=" + encodeURIComponent(inventoryLevel) + "&quantity=" + encodeURIComponent(quantity) + "&colorName=" + encodeURIComponent(colorName) + "&productId=" + encodeURIComponent(productId);
+window.location.href = url;
+}
+    </script>

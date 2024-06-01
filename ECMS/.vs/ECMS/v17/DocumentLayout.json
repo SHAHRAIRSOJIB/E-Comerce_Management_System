@@ -1,0 +1,199 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Munem PC\\Desktop\\Projects\\ECMS\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A6FA9F4B-7951-4424-A1E7-A5CEDB81EE92}|ECMS\\ECMS.csproj|c:\\users\\munem pc\\desktop\\projects\\ecms\\ecms\\views\\shared\\_layoutforecms.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A6FA9F4B-7951-4424-A1E7-A5CEDB81EE92}|ECMS\\ECMS.csproj|solutionrelative:ecms\\views\\shared\\_layoutforecms.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6FA9F4B-7951-4424-A1E7-A5CEDB81EE92}|ECMS\\ECMS.csproj|c:\\users\\munem pc\\desktop\\projects\\ecms\\ecms\\views\\product\\addproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A6FA9F4B-7951-4424-A1E7-A5CEDB81EE92}|ECMS\\ECMS.csproj|solutionrelative:ecms\\views\\product\\addproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6FA9F4B-7951-4424-A1E7-A5CEDB81EE92}|ECMS\\ECMS.csproj|c:\\users\\munem pc\\desktop\\projects\\ecms\\ecms\\models\\products.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6FA9F4B-7951-4424-A1E7-A5CEDB81EE92}|ECMS\\ECMS.csproj|solutionrelative:ecms\\models\\products.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6FA9F4B-7951-4424-A1E7-A5CEDB81EE92}|ECMS\\ECMS.csproj|c:\\users\\munem pc\\desktop\\projects\\ecms\\ecms\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6FA9F4B-7951-4424-A1E7-A5CEDB81EE92}|ECMS\\ECMS.csproj|solutionrelative:ecms\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6FA9F4B-7951-4424-A1E7-A5CEDB81EE92}|ECMS\\ECMS.csproj|c:\\users\\munem pc\\desktop\\projects\\ecms\\ecms\\views\\product\\productlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A6FA9F4B-7951-4424-A1E7-A5CEDB81EE92}|ECMS\\ECMS.csproj|solutionrelative:ecms\\views\\product\\productlist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6FA9F4B-7951-4424-A1E7-A5CEDB81EE92}|ECMS\\ECMS.csproj|c:\\users\\munem pc\\desktop\\projects\\ecms\\ecms\\views\\login\\adminlogin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A6FA9F4B-7951-4424-A1E7-A5CEDB81EE92}|ECMS\\ECMS.csproj|solutionrelative:ecms\\views\\login\\adminlogin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6FA9F4B-7951-4424-A1E7-A5CEDB81EE92}|ECMS\\ECMS.csproj|c:\\users\\munem pc\\desktop\\projects\\ecms\\ecms\\views\\product\\editproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A6FA9F4B-7951-4424-A1E7-A5CEDB81EE92}|ECMS\\ECMS.csproj|solutionrelative:ecms\\views\\product\\editproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6FA9F4B-7951-4424-A1E7-A5CEDB81EE92}|ECMS\\ECMS.csproj|c:\\users\\munem pc\\desktop\\projects\\ecms\\ecms\\models\\productdetailsview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6FA9F4B-7951-4424-A1E7-A5CEDB81EE92}|ECMS\\ECMS.csproj|solutionrelative:ecms\\models\\productdetailsview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6FA9F4B-7951-4424-A1E7-A5CEDB81EE92}|ECMS\\ECMS.csproj|c:\\users\\munem pc\\desktop\\projects\\ecms\\ecms\\views\\shop\\home.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A6FA9F4B-7951-4424-A1E7-A5CEDB81EE92}|ECMS\\ECMS.csproj|solutionrelative:ecms\\views\\shop\\home.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6FA9F4B-7951-4424-A1E7-A5CEDB81EE92}|ECMS\\ECMS.csproj|c:\\users\\munem pc\\desktop\\projects\\ecms\\ecms\\services\\dropdownservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6FA9F4B-7951-4424-A1E7-A5CEDB81EE92}|ECMS\\ECMS.csproj|solutionrelative:ecms\\services\\dropdownservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6FA9F4B-7951-4424-A1E7-A5CEDB81EE92}|ECMS\\ECMS.csproj|c:\\users\\munem pc\\desktop\\projects\\ecms\\ecms\\views\\customer\\registercustomer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A6FA9F4B-7951-4424-A1E7-A5CEDB81EE92}|ECMS\\ECMS.csproj|solutionrelative:ecms\\views\\customer\\registercustomer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Products.cs",
+              "DocumentMoniker": "C:\\Users\\Munem PC\\Desktop\\Projects\\ECMS\\ECMS\\Models\\Products.cs",
+              "RelativeDocumentMoniker": "ECMS\\Models\\Products.cs",
+              "ToolTip": "C:\\Users\\Munem PC\\Desktop\\Projects\\ECMS\\ECMS\\Models\\Products.cs",
+              "RelativeToolTip": "ECMS\\Models\\Products.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAUwBAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T05:15:28.138Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_LayoutForECMS.cshtml",
+              "DocumentMoniker": "C:\\Users\\Munem PC\\Desktop\\Projects\\ECMS\\ECMS\\Views\\Shared\\_LayoutForECMS.cshtml",
+              "RelativeDocumentMoniker": "ECMS\\Views\\Shared\\_LayoutForECMS.cshtml",
+              "ToolTip": "C:\\Users\\Munem PC\\Desktop\\Projects\\ECMS\\ECMS\\Views\\Shared\\_LayoutForECMS.cshtml",
+              "RelativeToolTip": "ECMS\\Views\\Shared\\_LayoutForECMS.cshtml",
+              "ViewState": "AQIAAFoAAAAAAAAAAAAAAF0AAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-30T09:36:40.216Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Home.cshtml",
+              "DocumentMoniker": "C:\\Users\\Munem PC\\Desktop\\Projects\\ECMS\\ECMS\\Views\\Shop\\Home.cshtml",
+              "RelativeDocumentMoniker": "ECMS\\Views\\Shop\\Home.cshtml",
+              "ToolTip": "C:\\Users\\Munem PC\\Desktop\\Projects\\ECMS\\ECMS\\Views\\Shop\\Home.cshtml",
+              "RelativeToolTip": "ECMS\\Views\\Shop\\Home.cshtml",
+              "ViewState": "AQIAAGcBAAAAAAAAAAAAAHABAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-30T06:02:42.361Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ProductDetailsView.cs",
+              "DocumentMoniker": "C:\\Users\\Munem PC\\Desktop\\Projects\\ECMS\\ECMS\\Models\\ProductDetailsView.cs",
+              "RelativeDocumentMoniker": "ECMS\\Models\\ProductDetailsView.cs",
+              "ToolTip": "C:\\Users\\Munem PC\\Desktop\\Projects\\ECMS\\ECMS\\Models\\ProductDetailsView.cs",
+              "RelativeToolTip": "ECMS\\Models\\ProductDetailsView.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAQAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T05:08:33.901Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DropDownService.cs",
+              "DocumentMoniker": "C:\\Users\\Munem PC\\Desktop\\Projects\\ECMS\\ECMS\\Services\\DropDownService.cs",
+              "RelativeDocumentMoniker": "ECMS\\Services\\DropDownService.cs",
+              "ToolTip": "C:\\Users\\Munem PC\\Desktop\\Projects\\ECMS\\ECMS\\Services\\DropDownService.cs",
+              "RelativeToolTip": "ECMS\\Services\\DropDownService.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAQwBsAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T05:06:56.091Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "RegisterCustomer.cshtml",
+              "DocumentMoniker": "C:\\Users\\Munem PC\\Desktop\\Projects\\ECMS\\ECMS\\Views\\Customer\\RegisterCustomer.cshtml",
+              "RelativeDocumentMoniker": "ECMS\\Views\\Customer\\RegisterCustomer.cshtml",
+              "ToolTip": "C:\\Users\\Munem PC\\Desktop\\Projects\\ECMS\\ECMS\\Views\\Customer\\RegisterCustomer.cshtml",
+              "RelativeToolTip": "ECMS\\Views\\Customer\\RegisterCustomer.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAABZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-29T21:11:04.625Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AddProduct.cshtml",
+              "DocumentMoniker": "C:\\Users\\Munem PC\\Desktop\\Projects\\ECMS\\ECMS\\Views\\Product\\AddProduct.cshtml",
+              "RelativeDocumentMoniker": "ECMS\\Views\\Product\\AddProduct.cshtml",
+              "ToolTip": "C:\\Users\\Munem PC\\Desktop\\Projects\\ECMS\\ECMS\\Views\\Product\\AddProduct.cshtml",
+              "RelativeToolTip": "ECMS\\Views\\Product\\AddProduct.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADgAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-29T21:09:29.966Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProductList.cshtml",
+              "DocumentMoniker": "C:\\Users\\Munem PC\\Desktop\\Projects\\ECMS\\ECMS\\Views\\Product\\ProductList.cshtml",
+              "RelativeDocumentMoniker": "ECMS\\Views\\Product\\ProductList.cshtml",
+              "ToolTip": "C:\\Users\\Munem PC\\Desktop\\Projects\\ECMS\\ECMS\\Views\\Product\\ProductList.cshtml",
+              "RelativeToolTip": "ECMS\\Views\\Product\\ProductList.cshtml",
+              "ViewState": "AQIAAE4AAAAAAAAAAAAAAFYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-29T21:08:52.742Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\Munem PC\\Desktop\\Projects\\ECMS\\ECMS\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "ECMS\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\Munem PC\\Desktop\\Projects\\ECMS\\ECMS\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "ECMS\\Controllers\\ProductController.cs",
+              "ViewState": "AQIAACoAAAAAAAAAAAAmwC4AAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T21:08:26.226Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AdminLogin.cshtml",
+              "DocumentMoniker": "C:\\Users\\Munem PC\\Desktop\\Projects\\ECMS\\ECMS\\Views\\Login\\AdminLogin.cshtml",
+              "RelativeDocumentMoniker": "ECMS\\Views\\Login\\AdminLogin.cshtml",
+              "ToolTip": "C:\\Users\\Munem PC\\Desktop\\Projects\\ECMS\\ECMS\\Views\\Login\\AdminLogin.cshtml",
+              "RelativeToolTip": "ECMS\\Views\\Login\\AdminLogin.cshtml",
+              "ViewState": "AQIAAFcAAAAAAAAAAAAAAGQAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-30T09:11:03.625Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EditProduct.cshtml",
+              "DocumentMoniker": "C:\\Users\\Munem PC\\Desktop\\Projects\\ECMS\\ECMS\\Views\\Product\\EditProduct.cshtml",
+              "RelativeDocumentMoniker": "ECMS\\Views\\Product\\EditProduct.cshtml",
+              "ToolTip": "C:\\Users\\Munem PC\\Desktop\\Projects\\ECMS\\ECMS\\Views\\Product\\EditProduct.cshtml",
+              "RelativeToolTip": "ECMS\\Views\\Product\\EditProduct.cshtml",
+              "ViewState": "AQIAAFcAAAAAAAAAAAAQwFwAAABMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-30T06:05:31.466Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

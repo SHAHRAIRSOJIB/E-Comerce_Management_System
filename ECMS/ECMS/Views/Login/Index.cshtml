@@ -1,0 +1,107 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_LayoutForECMS.cshtml";
+}
+<style>
+    .error-message {
+        display: none;
+        color: red;
+    }
+
+    #error-message-container {
+        width: 300px; /* Adjust this value according to your container's width */
+        margin: 0 auto; /* This centers the container horizontally */
+        text-align: center; /* This centers the content inside the container */
+    }
+</style>
+<br />
+<br />
+<br />
+<br />
+<div class="card mt-0 shadow-lg p-3 bg-white rounded" style="width: 50%; margin: 0 auto;">
+    <h1 style="text-align:center">Login</h1>
+    <br />
+    <div id="error-message-container">
+        <span id="Login_Error" class="error-message">User Not Found</span>
+    </div>
+    <div class="form-group">
+        <label for="Email" class="control-label">Email</label>
+        <input id="Email" name="Email" class="form-control" type="email"/>
+        <span class="error-message" id="email-error">Email is required.</span>
+    </div>
+    <div class="form-group">
+        <label for="Password" class="control-label">Password</label>
+        <input id="Password" name="Password" class="form-control" type="password"></input>
+        <span class="error-message" id="password-error">Password is required.</span>
+    </div>
+    <br />
+
+    <div class="form-group" style="text-align: center;">
+        <button id="loginBtn" class="btn btn-dark">Login</button>
+    </div>
+    <div class="form-group" style="text-align: center;">
+        <b>If you do not have registed!</b><br />
+        <a href="/Customer/RegisterCustomer" id="registerLink" class="flex-c-m trans-04 p-lr-25">
+            <b>Register now</b>
+        </a>
+    </div>
+</div>
+<br />
+<br/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<!-- Include Bootstrap JS -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $('#loginBtn').click(function () {
+            var email = $('#Email').val();
+            var password = $('#Password').val();
+            debugger;
+            if (email == "") {
+                $('#email-error').css('display', 'block');
+                return;
+            }
+            if (password == "") {
+                $('#password-error').css('display', 'block');
+                return;
+            }
+
+            $.ajax({
+                url: '/Login/UserLoginInfo',
+                type: 'POST',
+                data: { email: email, password: password },
+                success: function (response) {
+                    debugger;
+                    if(response ==null){
+                        $('#Login_Error').css('display', 'block');
+                        return;
+                    }else{
+                        Swal.fire({
+                            title: 'Success!',
+                            text: 'Logged in  successfully.',
+                            icon: 'success',
+                            confirmButtonText: 'OK'
+                        }).then((result) => {
+                            if (result.isConfirmed) {
+                                // Redirect to another page
+                                window.location.href = '/Product/ProductHomePage';
+                            }
+                        });
+                    }
+                    
+                    
+                },
+                error: function (xhr, status, error) {
+                    Swal.fire({
+                        title: 'Error!',
+                        text: 'There was an error registering the customer.',
+                        icon: 'error',
+                        confirmButtonText: 'OK'
+                    });
+                }
+            });
+        });
+    });
+</script>
+

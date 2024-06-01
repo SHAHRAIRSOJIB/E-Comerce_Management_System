@@ -1,0 +1,196 @@
+﻿
+@{
+    ViewData["Title"] = "RegisterCustomer";
+    Layout = "~/Views/Shared/_LayoutForECMS.cshtml";
+}
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<style>
+    .error-message {
+        display: none;
+        color: red;
+    }
+</style>
+<br />
+<br />
+<br />
+<br />
+<div class="card mt-0 shadow-lg p-3 bg-white rounded" style="width: 50%; margin: 0 auto;">
+    <h1 style="text-align:center">Register</h1>
+    <br />
+    <form id="customerForm" method="post" onsubmit="return validateForm()">
+        <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" maxlength="200" class="form-control">
+            <span class="error-message" id="name-error">Name is required.</span>
+        </div>
+        <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" maxlength="100" class="form-control">
+            <span class="error-message" id="email-error">Email is required.</span>
+        </div>
+        <div class="form-group">
+            <label for="phone">Phone:</label>
+            <input type="text" id="phone" name="phone" maxlength="50" class="form-control">
+            <span class="error-message" id="phone-error">Phone is required.</span>
+        </div>
+        <div class="form-group">
+            <label for="address">Address:</label>
+            <input type="text" id="address" name="address" maxlength="200" class="form-control">
+            <span class="error-message" id="address-error">Address is required.</span>
+        </div>
+        <div class="form-group">
+            <label for="preferences">Preferences:</label>
+            <input type="text" id="preferences" name="preferences" maxlength="200" class="form-control">
+        </div>
+        <div class="form-group">
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" maxlength="200" class="form-control">
+            <span class="error-message" id="password-error">Password is required.</span>
+        </div>
+        <div class="form-group" style="text-align: center;">
+            <button type="submit" class="btn btn-primary">Register</button>
+        </div>
+    </form>
+</div>
+</br>
+</br>
+</br>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $('#customerForm').on('submit', function (event) {
+            event.preventDefault(); // Prevent the default form submission
+
+            if (validateForm()) {
+                const formData = {
+                    name: $('#name').val().trim(),
+                    email: $('#email').val().trim(),
+                    phone: $('#phone').val().trim(),
+                    address: $('#address').val().trim(),
+                    preferences: $('#preferences').val().trim(),
+                    password: $('#password').val().trim()
+                };
+
+                $.ajax({
+                    url: '/Customer/PostCustomer',
+                    type: 'POST',
+                    data: JSON.stringify(formData),
+                    contentType: 'application/json; charset=utf-8',
+                    success: function (response) {
+                        // Handle success response
+                        Swal.fire({
+                            title: 'Success!',
+                            text: 'Customer registered successfully.',
+                            icon: 'success',
+                            confirmButtonText: 'OK'
+                        }).then((result) => {
+                            if (result.isConfirmed) {
+                                // Redirect to another page
+                                window.location.href = '/Login/Index';
+                            }
+                        });
+                    },
+                    error: function (xhr, status, error) {
+                        // Handle error response
+                        Swal.fire({
+                            title: 'Error!',
+                            text: 'There was an error registering the customer.',
+                            icon: 'error',
+                            confirmButtonText: 'OK'
+                        })
+                    }
+                });
+            }
+        });
+    });
+    // function validateAndSubmitForm(event) {
+    //     event.preventDefault();
+    //     let isValid = validateForm();
+
+    //     if (isValid) {
+    //         let formData = new FormData(document.getElementById('customerForm'));
+
+    //         fetch('/Customer/PostCustomer', {
+    //             method: 'POST',
+    //             body: JSON.stringify(Object.fromEntries(formData)),
+    //             headers: {
+    //                 'Content-Type': 'application/json'
+    //             }
+    //         })
+    //             .then(response => response.json())
+    //             .then(data => {
+    //                 if (data) {
+    //                     Swal.fire({
+    //                         title: 'Success!',
+    //                         text: 'Customer registered successfully.',
+    //                         icon: 'success',
+    //                         confirmButtonText: 'OK'
+    //                     });
+    //                 } else {
+    //                     Swal.fire({
+    //                         title: 'Error!',
+    //                         text: 'There was an error registering the customer.',
+    //                         icon: 'error',
+    //                         confirmButtonText: 'OK'
+    //                     });
+    //                 }
+    //             })
+    //             .catch(error => {
+    //                 Swal.fire({
+    //                     title: 'Error!',
+    //                     text: 'There was an error processing your request.',
+    //                     icon: 'error',
+    //                     confirmButtonText: 'OK'
+    //                 });
+    //             });
+    //     }
+    // }
+    function validateForm() {
+        var isValid = true;
+
+        var name = document.getElementById('name').value;
+        var email = document.getElementById('email').value;
+        var phone = document.getElementById('phone').value;
+        var address = document.getElementById('address').value;
+        var password = document.getElementById('password').value;
+
+        if (name === "") {
+            document.getElementById('name-error').style.display = 'block';
+            isValid = false;
+        } else {
+            document.getElementById('name-error').style.display = 'none';
+        }
+
+        if (email === "") {
+            document.getElementById('email-error').style.display = 'block';
+            isValid = false;
+        } else {
+            document.getElementById('email-error').style.display = 'none';
+        }
+
+        if (phone === "") {
+            document.getElementById('phone-error').style.display = 'block';
+            isValid = false;
+        } else {
+            document.getElementById('phone-error').style.display = 'none';
+        }
+
+        if (address === "") {
+            document.getElementById('address-error').style.display = 'block';
+            isValid = false;
+        } else {
+            document.getElementById('address-error').style.display = 'none';
+        }
+
+        if (password === "") {
+            document.getElementById('password-error').style.display = 'block';
+            isValid = false;
+        } else {
+            document.getElementById('password-error').style.display = 'none';
+        }
+
+        return isValid;
+    }
+</script>

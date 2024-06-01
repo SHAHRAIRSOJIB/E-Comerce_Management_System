@@ -1,0 +1,157 @@
+﻿
+@{
+    ViewData["Title"] = "AddProduct";
+    Layout = "~/Views/Shared/_LayoutForECMS.cshtml";
+}
+</br>
+</br>
+</br>
+</br>
+</br>
+<div class="card mt-0 shadow-lg p-3 bg-white rounded" style="width: 50%; margin: 0 auto;">
+<div class="form-group">
+    <label for="Name" class="control-label">Name</label>
+    <input id="Name" name="Name" class="form-control" />
+</div>
+<div class="form-group">
+    <label for="Description" class="control-label">Description</label>
+    <textarea id="Description" name="Description" class="form-control"></textarea>
+</div>
+<div class="form-group">
+    <label for="Specification" class="control-label">Specification</label>
+    <textarea id="Specification" name="Specification" class="form-control"></textarea>
+</div>
+<div class="form-group">
+    <label for="Price" class="control-label">Price</label>
+    <input id="Price" name="Price" class="form-control" />
+</div>
+<div class="form-group">
+    <label for="Category" class="control-label">Category</label>
+        @Html.DropDownList("Category", (SelectList)ViewBag.CategoryList, "Select Category", new { @class = "form-control" })
+</div>
+<div class="form-group">
+    <label for="Size" class="control-label">Size</label>
+        @Html.DropDownList("Size", (SelectList)ViewBag.SizeList, "Select Size", new { @class = "form-control" })
+</div>
+<div class="form-group">
+    <label for="InventoryLevel" class="control-label">Inventory Level</label>
+        @Html.DropDownList("InventoryLevel", (SelectList)ViewBag.InventoryLevelList, "Select Inventory Level", new { @class = "form-control" })
+</div>
+    <div class="form-group">
+        <label for="Color" class="control-label">Color</label>
+        @Html.DropDownList("Color", (SelectList)ViewBag.ColorList, "Select Color", new { @class = "form-control" })
+    </div>
+    <div class="form-group">
+        <label for="qty" class="control-label">Qty</label>
+        <input id="qty" name="qty" class="form-control" type="number"></input>
+    </div>
+    <div class="form-group">
+        <label for="Image" class="form-label">ProductImage</label>
+        <input type="file" class="form-control" id="ImageInput" style="padding: 4px;" accept="image/*">
+        <span id="ImageError" class="text-danger"></span>
+    </div>
+   
+        <div class="form-group">
+            <img id="ImagePreview" src="#" alt="Preview" style="max-width: 100%; max-height: 310px;">
+        </div>
+        <br />
+    <div class="form-group" style="text-align: center;">
+        <button id="createButton" class="btn btn-primary ">Create</button>
+</div>
+
+</div>
+ <br />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+    <script>
+        $(document).ready(function() {
+            $('#createButton').click(function(e) {
+                debugger;
+                e.preventDefault();
+            var id = 0;
+            var name = $('#Name').val();
+            var description = $('#Description').val();
+            var imagePath = $('#ImagePath').val();
+            var specification = $('#Specification').val();
+            var price = $('#Price').val();
+            var category = $('#Category').val();
+            var size = $('#Size').val();
+            var qty = $('#qty').val();
+            var color = $('#Color').val();
+            var inventoryLevel = $('#InventoryLevel').val();
+                var files = $('#ImageInput')[0].files[0];
+
+            var formData = new FormData();
+            formData.append('Id', id);
+            formData.append('Name',name);
+            formData.append('Description', description);
+            formData.append('Specification', specification);
+            formData.append('Price', price);
+            formData.append('Category', category);
+            formData.append('Size', size);
+            formData.append('Qty', qty);
+            formData.append('InventoryLevel', inventoryLevel);
+            formData.append('Color', color);
+            formData.append('ProductImage', files);
+                $.ajax({
+                url: '@Url.Action("AddProduct", "Product")',
+                method: 'POST',
+                data: formData,
+                processData: false,
+                contentType: false,
+                    success: function(response) {
+                        debugger;
+                        if (response == true) {
+                        Swal.fire({
+                            title: 'Success',
+                            text: 'Product Added Successfully',
+                            icon: 'success',
+                            showConfirmButton: true
+                        }).then((result) => {
+                            if (result.isConfirmed) {
+                                window.location.href = '@Url.Action("AddProduct", "Product")';
+                            }
+                        });
+                            
+                        } else {
+                        Swal.fire({
+                            title: 'Error!',
+                            text: "There is an error",
+                            icon: 'error',
+                            showConfirmButton: true
+                        }).then((result) => {
+                            if (result.isConfirmed) {
+                                // Reload the window
+                                window.location.reload();
+                            }
+                        });
+                        }
+                    },
+                    error: function() {
+                        alert('An error occurred while creating the item.');
+                    }
+                });
+            });
+
+        });
+
+    
+    function previewImage(input) {
+        var preview = document.getElementById('ImagePreview');
+        var file = input.files[0];
+        var reader = new FileReader();
+
+        reader.onloadend = function () {
+            preview.src = reader.result;
+        }
+        if (file) {
+            reader.readAsDataURL(file);
+        }
+        else {
+            preview.src = "";
+        }
+    }
+    document.getElementById('ImageInput').addEventListener('change', function () {
+        previewImage(this);
+    });
+    </script>

@@ -1,0 +1,221 @@
+﻿@model List<CartItem>
+@{
+	ViewData["Title"] = "CheckOutIndex";
+	Layout = "~/Views/Shared/_LayoutForECMS.cshtml";
+	decimal subtotal = Model?.Sum(item => Convert.ToDecimal(item.Price) * item.Qty) ?? 0;
+	decimal totalwithDelivery = (decimal)ViewData["TotalWithDelivery"];
+	int totalQty = Model?.Sum(x => x.Qty) ?? 0;
+}
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+<style>
+    .center-screen {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh; /* Full viewport height */
+    }
+
+    .error-message {
+        color: red;
+        font-size: 0.875em;
+        margin-top: 0.25em;
+    }
+</style>
+<br />
+<br />
+<br />
+<br />
+<div class="row">
+	<div class="col-lg-10 col-xl-7 m-lr-auto m-b-50">
+		<div class="m-l-25 m-r--38 m-lr-0-xl">
+			<div class="wrap-table-shopping-cart">
+				<table id="shoppingCartTable" class="table-shopping-cart">
+					<tr class="table_head">
+						<th class="column-1">Product</th>
+						<th class="column-2"></th>
+						<th class="column-3">Price</th>
+						<th class="column-4">Quantity</th>
+						<th class="column-5">Total</th>
+					</tr>
+
+					@if (Model != null && Model.Count > 0)
+					{
+						foreach (var item in Model)
+						{
+							<tr class="table_row">
+                                <td hidden> @item.Id</td>
+								<td class="column-1">
+									<div class="how-itemcart1">
+										<img src="/ProductPictures/@item.Path" alt="IMG">
+									</div>
+								</td>
+								<td class="column-2">@item.Name</td>
+								<td class="column-3">@Convert.ToDecimal(item.Price)</td>
+								<td class="column-4">@Convert.ToDecimal(item.Qty)</td>
+                                <td class="column-5">@((Convert.ToDecimal(item.Price) * item.Qty))</td>
+							</tr>
+						}
+					}
+					else
+					{
+						<tr class="table_row">
+							<td colspan="5" class="text-center">Your cart is empty.</td>
+						</tr>
+					}
+				</table>
+			</div>
+		</div>
+	</div>
+<div class="col-sm-10 col-lg-7 col-xl-5 m-lr-auto m-b-50">
+    <div class="bor10 p-lr-40 p-t-30 p-b-40 m-l-63 m-r-40 m-lr-0-xl p-lr-15-sm">
+			<div class="form-group">
+				<h2>Total: @totalwithDelivery BDT</h2>
+			</div>
+                    <div class="form-group">
+                        <label for="Name" class="control-label">Name</label>
+                        <input id="Name" name="Name" class="form-control" />
+                <span class="error-message" id="NameError"></span>
+                    </div>
+                    <div class="form-group">
+                    <label for="Email" class="control-label">Email</label>
+                    <input id="Email" name="Email" class="form-control"></input>
+                <span class="error-message" id="EmailError"></span>
+                    </div>
+                    <div class="form-group">
+                        <label for="Phone" class="control-label">Phone</label>
+                
+                    <input id="Phone" name="Phone" class="form-control"></input>
+                <span class="error-message" id="PhoneError"></span>
+                    </div>
+                    <div class="form-group">
+                    <label for="ShippingAddress" class="control-label">Shipping Address</label>
+                    <input id="ShippingAddress" name="ShippingAddress" class="form-control" />
+                <span class="error-message" id="ShippingAddressError"></span>
+                    </div>
+                    
+                    <div class="form-group">
+            <div class="rs1-select2 rs2-select2 bor8 bg0 m-b-12 m-t-9">
+                <select class="js-select2 typeSelect" name="time">
+                    <option value="0">Select Delivery Type...</option>
+                        <option value="Cash On Delivery">Cash On Delivery</option>
+                        <option value="Pay Now">Pay Now</option>
+                </select>
+                <div class="dropDownSelect2"></div>
+            </div>
+                <span class="error-message" id="DeliveryTypeError"></span>
+                    </div>
+
+                    <div class="form-group" style="text-align: center;">
+                        <button id="placeorderBtn" class="btn btn-primary " onclick="placeOrder()">Place Order</button>
+                    </div>
+
+                </div>
+            </div>
+</div>
+</br>
+</br>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+<script>
+    function getCartValues() {
+        var table = document.getElementById('shoppingCartTable');
+        var cartItems = [];
+
+        var rows = table.getElementsByClassName('table_row');
+        for (var i = 0; i < rows.length; i++) {
+            var cells = rows[i].getElementsByTagName('td');
+            var item = {
+                ProductId: parseInt(cells[0].innerText, 10),
+                UnitPrice: parseFloat(cells[3].innerText),
+                UnitQty: parseInt(cells[4].innerText),
+                TotalPrice: parseFloat(cells[5].innerText)
+            };
+            cartItems.push(item);
+        }
+        console.log(cartItems);
+        return cartItems;
+    }
+	function placeOrder(){
+       
+        debugger;
+        var cart = getCartValues();
+		var totalqty = @totalQty;
+		var name = document.getElementById('Name').value;
+		var email = document.getElementById('Email').value;
+		var phone = document.getElementById('Phone').value;
+		var shippingAddress = document.getElementById('ShippingAddress').value;
+		var deliveryType = document.querySelector('.typeSelect').value;
+        var totalwithshipping = @totalwithDelivery;
+        var isValid = true;
+
+        // Clear previous error messages
+        document.getElementById('NameError').innerText = '';
+        document.getElementById('EmailError').innerText = '';
+        document.getElementById('PhoneError').innerText = '';
+        document.getElementById('ShippingAddressError').innerText = '';
+        document.getElementById('DeliveryTypeError').innerText = '';
+
+        // Validate inputs
+        if (!name) {
+            document.getElementById('NameError').innerText = 'Name is required';
+            isValid = false;
+        }
+        if (!email) {
+            document.getElementById('EmailError').innerText = 'Email is required';
+            isValid = false;
+        }
+        if (!phone) {
+            document.getElementById('PhoneError').innerText = 'Phone is required';
+            isValid = false;
+        }
+        if (!shippingAddress) {
+            document.getElementById('ShippingAddressError').innerText = 'Shipping Address is required';
+            isValid = false;
+        }
+        if (deliveryType === "0") {
+            document.getElementById('DeliveryTypeError').innerText = 'Delivery Type is required';
+            isValid = false;
+        }
+
+        if (!isValid) {
+            return; // Prevent further execution
+        }
+
+        var order = {
+            Id :0,
+            CustomerName: name,
+            Email: email,
+            Phone: phone,
+            DeliveryLoaction: shippingAddress,
+            DeliveryType: deliveryType,
+            TotalQty: totalqty,
+            TotalPrice: totalwithshipping,
+            OrderDetails: cart
+        };
+        $.ajax({
+            url: '/Product/PlaceOrder',
+            type: 'POST',
+            contentType: 'application/json',
+            data: JSON.stringify(order),
+            success: function (response) {
+                console.log('Order created successfully:', response);
+                swal.fire({
+                    title: "Success",
+                    text: "Order has been placed",
+                    icon: "success",
+                }).then(function () {
+                    window.location.href = "/Shop/OrderPlaced"; // Redirect to another page
+                });
+            },
+            error: function (error) {
+                swal.fire({
+                    title: "Error",
+                    text: "Error creating order",
+                    icon: "error",
+                });;
+            }
+        });
+
+	};
+</script>
